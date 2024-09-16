@@ -1,7 +1,7 @@
 import React from "react";
 import SmallCards from "../UI/SmallCards";
 import "../assets/Hero.css";
-import personalData from "../data/ecb";
+import {personalData} from "../data/ecb";
 
 const Hero = () => {
   return (

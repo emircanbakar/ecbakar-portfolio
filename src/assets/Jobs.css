@@ -39,6 +39,11 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.jobs-img{
+    width: 36px;
+    height: 36px;
+}
+
 @media screen and (max-width: 440px){
     .card-container{
         display: flex;
