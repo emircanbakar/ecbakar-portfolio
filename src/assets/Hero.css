@@ -1,11 +1,11 @@
-.container {
+.hero-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
-  margin-top: 12rem;
+  margin-top: 1rem;
 }
-.main {
+.hero-main {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -34,7 +34,7 @@
   justify-content: center;
   background-color: #dddddd;
   border-radius: 6px;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   padding: 1rem;
   width: 3rem;
   height: 3rem;
@@ -48,9 +48,11 @@
 }
 
 .name {
+  margin-top: 10rem;
   text-align: left;
   font-size: 6.75rem;
   font-weight: 900;
+  color: white;
 }
 .title {
   font-size: 2rem;
@@ -58,33 +60,51 @@
   color: #7d7d7d;
 }
 
-@media screen and (max-width: 440px) {
-  .container{
+@media screen and (max-width: 480px) {
+  .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
-    padding: auto;
+    padding: 1rem;
+    margin: auto;
   }
 
-  .main{
-    margin-top: 3rem;
+  .hero-main {
+    margin-top: 1rem;
   }
 
-  .name{
+  .name {
     font-size: 5rem;
+    margin: .5rem 2rem;
+    padding-top: 3rem;
   }
-  .title{
+
+  .title {
     font-size: 1.5rem;
   }
 
-  .socials{
+  .socials {
     display: flex;
     flex-direction: row;
   }
 
-  .social-link{
+  .social-link {
+    margin: 3rem 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: auto;
+  }
+  .socials {
+    flex-direction: row;
+  }
+  .social-link {
     margin: 3rem 1rem;
   }
 }

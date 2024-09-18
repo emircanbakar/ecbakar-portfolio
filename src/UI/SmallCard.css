@@ -10,10 +10,11 @@
     border-radius: 6px;
     margin: .275rem;
     padding: 0 0.875rem;
-    background-color: #86AB89;
+    background-color: #363636;
     transition: .3s all ease;
 }
 
 .skill-card:hover{
-    background-color: #59735c;
+    box-shadow: rgba(121, 121, 121, 0.25) 0px 30px 60px -12px inset,
+    rgba(121, 121, 121, 0.25) 0px 18px 36px -18px inset;
 }
